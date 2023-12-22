@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Games for Kids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fun Games for Kids</h1>
+    </header>
+
+    <main>
+        <!-- Math Game Section -->
+        <section class="game-container">
+            <h2>Math Game</h2>
+            <div id="math-question"></div>
+            <label for="math-userAnswer">Your Answer: </label>
+            <input type="text" id="math-userAnswer" oninput="checkMathAnswer()">
+            <p id="math-feedback"></p>
+            <button onclick="startMathGame()">Next Math Question</button>
+        </section>
+
+        <!-- Guessing Game Section -->
+        <section class="game-container">
+            <h2>Guessing Game</h2>
+            <p>Guess a number between 1 and 10.</p>
+            <button onclick="startGuessingGame()">Start Guessing Game</button>
+            <p id="guessing-game-feedback"></p>
+        </section>
+
+        <!-- Card Game Section -->
+        <section class="game-container">
+            <h2>Card Game</h2>
+            <button onclick="startCardGame()">Draw a Card</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Fun Games for Kids</p>
+    </footer>
+
+    <script src="games.js"></script>
+</body>
+</html>

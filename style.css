@@ -1,0 +1,78 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+}
+
+#math-question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Additional styling for the Card Game Section */
+#card-game-container button {
+    background-color: #27ae60;
+    margin-top: 10px;
+}
+
+#card-game-container button:hover {
+    background-color: #219a52;
+}
